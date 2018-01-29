@@ -1,0 +1,64 @@
+body {
+  
+}
+
+.manga-reader {
+  width: 70%;
+  text-align: center;
+  margin: 20px auto;
+}
+.manga-reader  img {}
+
+.button-list {
+  display: flex;
+  justify-content: center;
+}
+
+table, table tbody, table thead {
+  width: 100%;
+}
+
+h1, h2, .logo {
+  font-family: 'Supermercado One', cursive;
+  font-weight: 400;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.logo {
+  font-size: 3rem;
+  color: #a20025;
+  margin: 0 0 1.5rem;
+}
+
+a {
+  color: #a20025;
+}
+
+header {
+  text-align: center;
+}
+
+header a {
+  display: inline-block;
+}
+
+header a + a {
+  margin-left: 30px;
+  position: relative;
+}
+
+header a + a:before {
+  content: "--";
+  position: absolute;
+  color: #000;
+  left: -21px;
+}
+
+.search input {
+  width: 100%;
+  padding: 7px 15px;
+}
